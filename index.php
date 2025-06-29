@@ -119,13 +119,13 @@ return $template;
 
 $db = new MysqliDb ('mysql-arturo.alwaysdata.net','arturo','15112003Aa!','arturo_dior');
 
-$telegram = new Telegram("5456276655:AAFt3u9hGVZxA72kBJrTc9W-Bmp7CWjLJBA");
+$telegram = new Telegram("8080037142:AAHcl8Sk010lGkMgn4gSwoVbbLqq80t3UdY");
 
 
 
 date_default_timezone_set('America/Bogota');
-$Mi_Id = "6365131242";
-$botToken =  "5456276655:AAFt3u9hGVZxA72kBJrTc9W-Bmp7CWjLJBA";
+$Mi_Id = "7410975556";
+$botToken =  "8080037142:AAHcl8Sk010lGkMgn4gSwoVbbLqq80t3UdY";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = $telegram->getData();
 $cchatid2 = $update["callback_query"]["message"]["chat"]["id"];
